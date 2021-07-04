@@ -19,7 +19,7 @@ const myWebSlice = createSlice({
         getQuote(){},
         setQuote(state, action:PayloadAction<{text: string, author: string}>) {
             const {text, author} = action.payload;
-            state.quote = text + ' ' + author !== null ? "@" + author : '';
+            state.quote = text + ' ' + (author !== null ? "@" + author : '');
         },
         setCurrentUser(state, action:PayloadAction<string>) {
             state.currentUser = action.payload;

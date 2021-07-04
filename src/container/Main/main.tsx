@@ -7,11 +7,11 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const MainWrapper = styled.div`
-  height: 93%;
+  height: 80%;
 `;
 
 const SubWrapper = styled.div`
-  height:80%;
+  height:66%;
 `;
 const Quote = styled.div`
   color: white;
@@ -25,7 +25,7 @@ const Quote = styled.div`
 const MainContainer = styled.div`
 color: white;
 height: 100vh;
-font-size: 28px;
+font-size: 22px;
 font-weight: 400;
 a {
   text-decoration: none;
@@ -69,7 +69,7 @@ a {
   }
 
   input {
-    font-size: 28px;
+    font-size: 22px;
       background-color: transparent;
       border: none;
       border-bottom: 2px solid ${computerGreen};
@@ -135,7 +135,9 @@ const Main = ({currentUser, quote, setCurrentUser, getQuote}: MainType) => {
   const [mainQuote, setQuote] = useState("");
 
   useEffect(() => {
+    window.scroll(0,0);
     getQuote();
+
   },[])
 
   const onFormSubmit = (e: any) => {
@@ -160,7 +162,7 @@ const Main = ({currentUser, quote, setCurrentUser, getQuote}: MainType) => {
         />
         {showInput === true ? (
           <form className="name-form">
-            <input className="nameInput" type="text" placeholder="Name" value={userName}
+            <input autoComplete="off" id="mainName" className="nameInput" type="text" placeholder="Name" value={userName}
             onChange = {(e) => {
             setName(e.target.value)
             }}

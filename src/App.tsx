@@ -1,5 +1,4 @@
-import React from "react";
-import Typed from "react-typed";
+import React, { useEffect, useRef,useState } from "react";
 import "react-typed/dist/animatedCursor.css";
 import Slider from "react-slick";
 import styled from 'styled-components';
@@ -77,7 +76,7 @@ function App( {currentUser, quote, setCurrentUser, getQuote} : myWebType) {
         ></Main>
       <AboutMe></AboutMe>
       <Projects></Projects>
-      {/* <Contact></Contact> */}
+      <Contact></Contact>
       </Slider>
       
     </Container>
