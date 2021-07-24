@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/React-my-web/static/css/main.2caef06a.chunk.css",
+    "main.js": "/React-my-web/static/js/main.a24c226c.chunk.js",
+    "main.js.map": "/React-my-web/static/js/main.a24c226c.chunk.js.map",
+    "runtime-main.js": "/React-my-web/static/js/runtime-main.5291b841.js",
+    "runtime-main.js.map": "/React-my-web/static/js/runtime-main.5291b841.js.map",
+    "static/css/2.9d879a73.chunk.css": "/React-my-web/static/css/2.9d879a73.chunk.css",
+    "static/js/2.62b245d7.chunk.js": "/React-my-web/static/js/2.62b245d7.chunk.js",
+    "static/js/2.62b245d7.chunk.js.map": "/React-my-web/static/js/2.62b245d7.chunk.js.map",
+    "index.html": "/React-my-web/index.html",
+    "static/css/2.9d879a73.chunk.css.map": "/React-my-web/static/css/2.9d879a73.chunk.css.map",
+    "static/css/main.2caef06a.chunk.css.map": "/React-my-web/static/css/main.2caef06a.chunk.css.map",
+    "static/js/2.62b245d7.chunk.js.LICENSE.txt": "/React-my-web/static/js/2.62b245d7.chunk.js.LICENSE.txt",
+    "static/media/Nayoun_Ham_CV.5a31a759.pdf": "/React-my-web/static/media/Nayoun_Ham_CV.5a31a759.pdf",
+    "static/media/memoji.b6a0b186.gif": "/React-my-web/static/media/memoji.b6a0b186.gif",
+    "static/media/paper.c72be39c.pdf": "/React-my-web/static/media/paper.c72be39c.pdf",
+    "static/media/slick-theme.css": "/React-my-web/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5291b841.js",
+    "static/css/2.9d879a73.chunk.css",
+    "static/js/2.62b245d7.chunk.js",
+    "static/css/main.2caef06a.chunk.css",
+    "static/js/main.a24c226c.chunk.js"
+  ]
+}
