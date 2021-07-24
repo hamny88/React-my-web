@@ -4,7 +4,7 @@ import Typed from "react-typed";
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import { computerGreen, amber } from "../styles/styleConstants";
 import memoji from "../assets/memoji.gif";
-import CV from "../file/index";
+import resource from "../file/index";
 
 const Title = styled.span`
 font-size:35px;
@@ -72,7 +72,7 @@ const aboutMe = () => {
         If you have a same value with me, scroll down to last page then you can send me an email. <br />
         Or you can get in touch with LinkedIn message.
         <div className="cv">
-        <a className="resume" href={CV} download>
+        <a className="resume" href={resource.CV} download>
         <ArrowForwardIosIcon />
             Download CV
             </a>

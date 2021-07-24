@@ -56,7 +56,9 @@ padding: 60px 40px 0px 60px;
 
 `;
 
+
 function App( {currentUser, quote, setCurrentUser, getQuote} : myWebType) {
+
   var settings = {
     dots: true,
     infinite: true,
@@ -64,6 +66,7 @@ function App( {currentUser, quote, setCurrentUser, getQuote} : myWebType) {
     slidesToShow: 1,
     slidesToScroll: 1,
     vertical: true,
+    draggable: true,
   };
   return (
     <Container>
