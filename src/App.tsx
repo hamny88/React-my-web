@@ -4,11 +4,12 @@ import Slider from "react-slick";
 import styled from 'styled-components';
 import { connect } from 'react-redux';
 import { myWebActionCreators, RootState } from './modules/myWeb';
-import "./App.scss";
 import Main from "./container/Main/main";
 import AboutMe from "./container/aboutMe.container";
+import NewAboutMe from "./container/newAboutMe.container";
 import Projects from "./container/projects.container";
 import Contact from "./container/contact.container";
+import GlobalStyle from "./GlobalStyle";
 
 type myWebAppType = {
   currentUser: string;
@@ -69,6 +70,8 @@ function App( {currentUser, quote, setCurrentUser, getQuote} : myWebType) {
     draggable: true,
   };
   return (
+    <>
+    <GlobalStyle />
     <Container>
       <Slider {...settings} >
       <Main 
@@ -77,12 +80,14 @@ function App( {currentUser, quote, setCurrentUser, getQuote} : myWebType) {
         setCurrentUser = {setCurrentUser}
         getQuote = {getQuote}
         ></Main>
-      <AboutMe></AboutMe>
+      {/* <AboutMe></AboutMe> */}
+      <NewAboutMe></NewAboutMe>
       <Projects></Projects>
       <Contact></Contact>
       </Slider>
       
     </Container>
+    </>
   );
 }
 

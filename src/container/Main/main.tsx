@@ -5,6 +5,7 @@ import { computerGreen, amber } from "../../styles/styleConstants";
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import '../../App.css';
 
 const MainWrapper = styled.div`
   height: 80%;
@@ -19,8 +20,8 @@ const Quote = styled.div`
   top: 87%;
   font-size: 22px;
   color: ${computerGreen};
-  font-family: 'Jura', sans-serif;    
   text-align: center;
+  font-family: 'Jura';
 `;
 const MainContainer = styled.div`
 color: white;
@@ -115,6 +116,7 @@ a {
       svg {
         padding-right: 6px;
       }
+      font-family: 'Press';
     }
    
   }
