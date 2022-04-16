@@ -82,7 +82,7 @@ function App( {currentUser, quote, setCurrentUser, getQuote} : myWebType) {
         ></Main>
       {/* <AboutMe></AboutMe> */}
       <NewAboutMe></NewAboutMe>
-      <Projects></Projects>
+      {/* <Projects></Projects> */}
       <Contact></Contact>
       </Slider>
       

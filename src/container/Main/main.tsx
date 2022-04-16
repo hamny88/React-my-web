@@ -154,7 +154,7 @@ const Main = ({currentUser, quote, setCurrentUser, getQuote}: MainType) => {
         <Typed
           className="typeJs"
           strings={[
-            "Hello world!<br>I'm Ellie, Software Developer.<br>Residing in Seoul,South Korea.<br><br>What's your name?",
+            "Hello world!<br>I'm Nayoun, Software Developer.<br>Residing in Seoul,South Korea.<br><br>What's your name?",
           ]}
           typeSpeed={35}
           onComplete={function () {
@@ -204,7 +204,7 @@ const Main = ({currentUser, quote, setCurrentUser, getQuote}: MainType) => {
               <GitHubIcon />
               </div> 
             </a>
-            <a href="https://www.linkedin.com/in/nayoun-ellie-ham-6a3373179/" target="_blank">
+            <a href="https://www.linkedin.com/in/nayoun-ham-6a3373179/" target="_blank">
             <div className="LinkedIn">
             <ArrowForwardIosIcon />
               LinkedIn {' '}
