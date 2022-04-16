@@ -28,6 +28,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "react-slick": "^0.28.0",
+    "react-terminal-ui": "^0.1.14",
     "react-typed": "^1.2.0",
     "redux-devtools-extension": "^2.13.9",
     "redux-logger": "^3.0.6",
