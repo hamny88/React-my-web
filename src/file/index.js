@@ -1,9 +1,7 @@
-import CV from './Nayoun_Ham_CV.pdf';
-import KISC from './paper.pdf';
+import Revised_CV from "./Revised_CV";
 
 const resource = {
-    CV,
-    KISC,
+  Revised_CV,
 };
 
 export default resource;

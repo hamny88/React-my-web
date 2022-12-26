@@ -10,7 +10,7 @@ import NewAboutMe from "./container/newAboutMe.container";
 import Projects from "./container/projects.container";
 import Contact from "./container/contact.container";
 import GlobalStyle from "./GlobalStyle";
-
+import NewContact from "./container/newContact.container copy";
 type myWebAppType = {
   currentUser: string;
   quote: string;
@@ -83,7 +83,8 @@ function App( {currentUser, quote, setCurrentUser, getQuote} : myWebType) {
       {/* <AboutMe></AboutMe> */}
       <NewAboutMe></NewAboutMe>
       {/* <Projects></Projects> */}
-      <Contact></Contact>
+      {/* <Contact></Contact> */}
+      <NewContact></NewContact>
       </Slider>
       
     </Container>
