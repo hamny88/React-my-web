@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-my-web/static/css/main.eb9a70ce.chunk.css",
+    "main.js": "/React-my-web/static/js/main.5c1a7907.chunk.js",
+    "main.js.map": "/React-my-web/static/js/main.5c1a7907.chunk.js.map",
+    "runtime-main.js": "/React-my-web/static/js/runtime-main.f91cbd73.js",
+    "runtime-main.js.map": "/React-my-web/static/js/runtime-main.f91cbd73.js.map",
+    "static/css/2.5b355ede.chunk.css": "/React-my-web/static/css/2.5b355ede.chunk.css",
+    "static/js/2.fc1998a8.chunk.js": "/React-my-web/static/js/2.fc1998a8.chunk.js",
+    "static/js/2.fc1998a8.chunk.js.map": "/React-my-web/static/js/2.fc1998a8.chunk.js.map",
+    "index.html": "/React-my-web/index.html",
+    "static/css/2.5b355ede.chunk.css.map": "/React-my-web/static/css/2.5b355ede.chunk.css.map",
+    "static/css/main.eb9a70ce.chunk.css.map": "/React-my-web/static/css/main.eb9a70ce.chunk.css.map",
+    "static/js/2.fc1998a8.chunk.js.LICENSE.txt": "/React-my-web/static/js/2.fc1998a8.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/React-my-web/static/media/Press.5f45b521.ttf",
+    "static/media/Me.7e65565f.png": "/React-my-web/static/media/Me.7e65565f.png",
+    "static/media/slick-theme.css": "/React-my-web/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f91cbd73.js",
+    "static/css/2.5b355ede.chunk.css",
+    "static/js/2.fc1998a8.chunk.js",
+    "static/css/main.eb9a70ce.chunk.css",
+    "static/js/main.5c1a7907.chunk.js"
+  ]
+}
