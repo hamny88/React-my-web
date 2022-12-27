@@ -18,7 +18,7 @@ const Quote = styled.div`
   color: white;
   position: relative;
   top: 87%;
-  font-size: 22px;
+  font-size: 18px;
   color: ${computerGreen};
   text-align: center;
   font-family: 'Jura';
