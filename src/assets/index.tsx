@@ -1,4 +1,4 @@
-import Me from "./TampaMe.jpeg";
+import Me from "./Me.png";
 
 
 export{
