@@ -5,12 +5,10 @@ import styled from 'styled-components';
 import { connect } from 'react-redux';
 import { myWebActionCreators, RootState } from './modules/myWeb';
 import Main from "./container/Main/main";
-import AboutMe from "./container/aboutMe.container";
 import NewAboutMe from "./container/newAboutMe.container";
-import Projects from "./container/projects.container";
-import Contact from "./container/contact.container";
 import GlobalStyle from "./GlobalStyle";
 import NewContact from "./container/newContact.container copy";
+
 type myWebAppType = {
   currentUser: string;
   quote: string;
