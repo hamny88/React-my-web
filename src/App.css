@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Jura;
+    src: url('./styles/fonts/Jura.ttf');
+}
+
+@font-face {
+    font-family: press;
+    src: url('./styles/fonts/Press.ttf');
+}
+
+@font-face {
+    font-family: press;
+    src: url('./styles/fonts/Orbitron.ttf');
+}
+
+@font-face {
+    font-family: Noto;
+    src: url('./styles/fonts/NotoSans-Regular.ttf');
+}
