@@ -1,4 +1,4 @@
-import Me from "./Me.png";
+import Me from "./Miami_me.jpg";
 
 
 export{
