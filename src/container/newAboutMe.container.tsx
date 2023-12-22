@@ -10,7 +10,7 @@ const AboutMeContainer = styled.div`
 const Text = styled.div`
   color: "#FFFFFF";
   font-size: 30px;
-  font-family: "Orbitron";
+  font-family: "Juran";
 `;
 
 const Introduce = styled.div`
@@ -68,11 +68,10 @@ const aboutMe = () => {
         <Introduce>
           <Discript>
             Majored Information Security @Seoul Womens University <br />
-            Worked as a Front-End Developer <br />
+            Worked as a Software Developer <br />
             Now, M.S studnet of Computer Vision @University of Central Florida{" "}
             <br />
-            Interested in Computer Vision, Autonomous Driving, Medical
-            Engineering, Robot Vision
+            Interested in Computer Vision, Autonomous systems, Efficient workflows and Medical Vision.
           </Discript>
         </Introduce>
 
@@ -85,13 +84,13 @@ const aboutMe = () => {
           <div
             className="btn"
             onClick={() =>
-              window.open("https://pdfhost.io/v/oSHRE0AnlD_Nayoun_Ham_CV")
+              window.open("https://drive.google.com/file/d/15iPiJ6t-TWW6EIdvg8pRvUv9h6v907uJ/view?usp=sharing")
             }
           >
             CV / Resume
           </div>
         </div>
-        <div className="Notion">
+        {/* <div className="Notion">
           <div
             className="btn"
             onClick={() =>
@@ -102,7 +101,7 @@ const aboutMe = () => {
           >
             Notion CV
           </div>
-        </div>
+        </div> */}
         <div className="Blog">
           <div
             className="btn"
