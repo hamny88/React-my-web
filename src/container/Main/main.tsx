@@ -153,7 +153,7 @@ const Main = ({currentUser, quote, setCurrentUser, getQuote}: MainType) => {
         <Typed
           className="typeJs"
           strings={[
-            "Hello world!<br>I'm Nayoun, Software Developer.<br>Residing in Oralndo, Florida.<br><br>What's your name?",
+            "Hello world!<br>I'm Nayoun, Software Developer.<br>Residing in Orlando, Florida.<br><br>What's your name?",
           ]}
           typeSpeed={35}
           onComplete={function () {
